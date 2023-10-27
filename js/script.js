@@ -58,4 +58,8 @@ function generateRapLyrics(userInput) {
 
 document.addEventListener("DOMContentLoaded", function() {
   
+  var numberInput = document.getElementById("number");
+  var rapButton = document.getElementById("rapButton");
+  var resultsList = document.getElementById("results");
+
 });
