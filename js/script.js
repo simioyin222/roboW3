@@ -37,3 +37,6 @@ function handleNegativeNumbers(userInput) {
   return generateRapLyrics(absoluteInput);
 }
 
+function handleZeroInput() {
+  return [0];
+}
