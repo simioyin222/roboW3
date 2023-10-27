@@ -17,3 +17,7 @@ Expected Output: [0, 'Boop!', 'Boop!', 123, 'Boop!']
 Test: "It should replace numbers containing 3 with 'DJ Robo on the beat!!'"
 Code: replaceWithDJRobo([0, 3, 35, 123, 345]);
 Expected Output: [0, 'DJ Robo on the beat!!', 'DJ Robo on the beat!!', 123, 'DJ Robo on the beat!!']
+
+Test: "It should return an error message for non-numeric input"
+Code: handleNonNumericInput("hello");
+Expected Output: "Error: Please enter a valid number."
