@@ -21,3 +21,7 @@ Expected Output: [0, 'DJ Robo on the beat!!', 'DJ Robo on the beat!!', 123, 'DJ 
 Test: "It should return an error message for non-numeric input"
 Code: handleNonNumericInput("hello");
 Expected Output: "Error: Please enter a valid number."
+
+Test: "It should handle negative numbers and generate the correct rap lyrics list"
+Code: generateRapLyrics(-3);
+Expected Output: [0, 'Beep!', 'Boop!', 'DJ Robo on the beat!!']
