@@ -7,3 +7,17 @@ body {
 body, h1, label, input, button {
   text-align: center;
 }
+
+h1 {
+  background-color:peru;
+  color: white;
+  padding: 10px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input, button {
+  margin-top: 10px;
+}
