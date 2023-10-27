@@ -53,3 +53,6 @@ function generateRapLyrics(userInput) {
   }
   return processedNumbers
 }
+
+//ui logic 
+
