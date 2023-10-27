@@ -31,3 +31,8 @@ function handleNonNumericInput(input) {
   }
   return parseInt(input);
 }
+
+function handleNegativeNumbers(userInput) {
+  var absoluteInput = Math.abs(userInput);
+  return generateRapLyrics(absoluteInput);
+}
