@@ -12,3 +12,9 @@ function replaceWithBeep(numberList) {
     return number.toString().includes("1") ? "Beep!" : number
   })
 }
+
+function replaceWithBoop(numberList) {
+  return numberList.map(function(number) {
+    return number.toString().includes('2') ? 'Boop!' : number;
+  });
+}
