@@ -31,3 +31,8 @@ input,
 button {
   margin-top: 10px;
 }
+
+#results li {
+  color: white;
+  font-weight: bold;
+}
