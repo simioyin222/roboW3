@@ -40,3 +40,16 @@ function handleNegativeNumbers(userInput) {
 function handleZeroInput() {
   return [0];
 }
+
+function generateRapLyrics(userInput) {
+  var processedNumbers = generateNumberList(handleNonNumericInput(userInput))
+  processedNumbers = replaceWithBeep(processedNumbers)
+  processedNumbers = replaceWithBoop(processedNumbers)
+  processedNumbers = replaceWithDJRobo(processedNumbers)
+  if (userInput < 0) {
+    processedNumbers = handleNegativeNumbers(userInput)
+  } else if (userInput === 0) {
+    processedNumbers = handleZeroInput()
+  }
+  return processedNumbers
+}
