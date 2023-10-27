@@ -1,6 +1,8 @@
 // Business Logic
-function generateRapLyrics(userInput) {
-  var output = [];
-
-  for (var i = 0; i <= userInput; i++)
+function generateNumberList(userInput) {
+  var numberList = [];
+  for (var i = 0; i <= userInput; i++) {
+    numberList.push(i);
+  }
+  return numberList;
 }
