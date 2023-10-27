@@ -18,3 +18,9 @@ function replaceWithBoop(numberList) {
     return number.toString().includes('2') ? 'Boop!' : number;
   });
 }
+
+function replaceWithDJRobo(numberList) {
+  return numberList.map(function(number) {
+    return number.toString().includes('3') ? 'DJ Robo on the beat!!' : number;
+  });
+}
