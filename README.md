@@ -25,3 +25,8 @@ Expected Output: "Error: Please enter a valid number."
 Test: "It should handle negative numbers and generate the correct rap lyrics list"
 Code: generateRapLyrics(-3);
 Expected Output: [0, 'Beep!', 'Boop!', 'DJ Robo on the beat!!']
+
+Test: "It should handle input of zero and return an array containing only zero"
+Code: generateRapLyrics(0);
+Expected Output: [0]
+

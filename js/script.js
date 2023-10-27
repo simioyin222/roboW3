@@ -36,3 +36,4 @@ function handleNegativeNumbers(userInput) {
   var absoluteInput = Math.abs(userInput);
   return generateRapLyrics(absoluteInput);
 }
+
