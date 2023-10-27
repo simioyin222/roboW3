@@ -28,7 +28,7 @@ Expected Output: [0, 'Beep!', 'Boop!', 'DJ Robo on the beat!!']
 
 Test: "It should handle input of zero and return an array containing only zero"
 Code: generateRapLyrics(0);
-Expected Output: [0]
+Expected Output: [0, ]
 
 Test: "It should generate the correct rap lyrics list for the user's input"
 Code: generateRapLyrics(5);

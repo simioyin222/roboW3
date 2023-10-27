@@ -56,3 +56,6 @@ function generateRapLyrics(userInput) {
 
 //ui logic 
 
+document.addEventListener("DOMContentLoaded", function() {
+  
+});
