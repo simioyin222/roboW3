@@ -14,3 +14,6 @@ Test: "It should replace numbers containing 2 with 'Boop!'"
 Code: replaceWithBoop([0, 2, 22, 123, 32]);
 Expected Output: [0, 'Boop!', 'Boop!', 123, 'Boop!']
 
+Test: "It should replace numbers containing 3 with 'DJ Robo on the beat!!'"
+Code: replaceWithDJRobo([0, 3, 35, 123, 345]);
+Expected Output: [0, 'DJ Robo on the beat!!', 'DJ Robo on the beat!!', 123, 'DJ Robo on the beat!!']
