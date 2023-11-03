@@ -21,13 +21,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //business logic
-function generateNumberList(userInput) {
-  var numberList = [];
-  for (var i = 0; i <= userInput; i++) {
-    numberList.push(i);
+function generateRapLyrics(userInput) {
+  const processedInput = handleNonNumericInput(userInput);
+  if (typeof processedInput === "string") {
+    return [processedInput];
   }
-  return numberList;
-}
 
 function replaceWithBeep(numberList) {
   return numberList.map(function (number) {
