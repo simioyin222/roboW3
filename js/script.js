@@ -1,17 +1,17 @@
 //ui logic
 document.addEventListener("DOMContentLoaded", function () {
-  var numberInput = document.getElementById("number");
-  var rapButton = document.getElementById("rapButton");
-  var resultsList = document.getElementById("results");
+  const numberInput = document.getElementById("number");
+  const rapButton = document.getElementById("rapButton");
+  const resultsList = document.getElementById("results");
 
   function updateResults() {
-    var userInput = numberInput.value;
-    var lyrics = generateRapLyrics(userInput);
+    const userInput = numberInput.value;
+    const lyrics = generateRapLyrics(userInput);
 
     resultsList.innerHTML = "";
 
     lyrics.forEach(function (lyric) {
-      var listItem = document.createElement("li");
+      const listItem = document.createElement("li");
       listItem.textContent = lyric;
       resultsList.appendChild(listItem);
     });
