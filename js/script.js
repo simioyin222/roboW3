@@ -43,3 +43,9 @@ function generateRapLyrics(userInput) {
   return numberList;
 }
 
+function handleNonNumericInput(input) {
+  if (isNaN(input) || input === "") {
+    return "Error: Please enter a valid number.";
+  }
+  return parseInt(input);
+}
